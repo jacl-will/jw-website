@@ -6,3 +6,33 @@ h {
     background-color: #98a7ac;
     font-family: cursive, gabriola;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 20px;
+    overflow: hidden;
+    background-color: #919f89;
+    
+}
+
+li {
+    float: center;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+li a {
+    display: block;
+    color: #cddad8;
+    text-align: center;
+    padding: 14px;
+}
+
+li a:hover {
+    background-color: #919f8985;
+}
+
+.active {
+    background-color: aliceblue;
+}
